@@ -1,0 +1,130 @@
+$maroon_color:rgba(171, 68, 68, 0.929);
+$size:50px;
+$text_border: -1px -1px 0 rgb(74, 44, 44),1px -1px 0 white,-1px 1px 0 blueviolet,1px 1px 0 white;
+$text_border_input: -2px -1px 0 rgb(31, 29, 29),2px -1px 0 white,-1px 1px 0 rgb(15, 15, 16),1px 1px 0 white;
+$font_family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+$answer:"";
+
+body{
+  align-items: center;
+  text-align: center;
+  right: 50%;
+
+}
+
+.h1{
+    color:$maroon_color;
+    text-align: center;
+    font-size: $size;
+    font-size: 60px; // Set font size
+    font-weight: bold; // Set font weight
+    padding: 5px; 
+    font-family: $font_family;
+    text-shadow: $text_border;
+    background-color: rgba(224, 218, 208,0.5);
+    border-color: rgb(247, 245, 240);
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: groove;
+    font-style: bold;
+    text-shadow: $text_border;
+}
+.input
+{
+    display: flex;
+    text-align: center; 
+    font-weight: bold;
+    color:darkmagenta;
+    font-size: 40px;
+    font-style: bold;
+    font-family:$font_family;
+    display: block;  
+    text-shadow: $text_border_input
+}
+
+@function random-color() 
+{
+  @return nth($colors, random(length($colors)));
+}
+
+
+@mixin options{
+  color:red;
+  right: 25%;
+  text-shadow: $text_border_input;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 30px;
+  width: 600px;
+  position: absolute;
+  height: 200px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(134, 174, 111, 0.5);
+ 
+}
+
+.body_container 
+{
+    @for $i from 1 through 5{
+      .Book#{$i}
+      {
+        @include options;
+        top:45%*$i;
+        cursor: pointer;
+        img
+        {
+          margin-left: -10%;
+          padding-right: 10%;
+        }
+      }
+    
+    }
+  
+   
+}
+
+@for $i from 1 through 5{
+  .Book#{$i}:hover
+  {
+    color:greenyellow;
+    right: 25%;
+    text-shadow: $text_border_input;
+    align-items: center;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: inset;
+    margin-left: 4%;
+    font-size: 50px;
+    width: 700px;
+    position: absolute;
+    height: 250px;
+    font-weight: bold;
+    padding-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(109, 74, 173, 0.5);
+    img
+        {
+          margin-left: 10%;
+          padding-right: 10%;
+        }
+  }
+}
+
+
+
+
+
+  
+
+  
+
+  

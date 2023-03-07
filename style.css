@@ -1,0 +1,293 @@
+body {
+  align-items: center;
+  text-align: center;
+  right: 50%;
+}
+
+.h1 {
+  color: rgba(171, 68, 68, 0.929);
+  text-align: center;
+  font-size: 50px;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: -1px -1px 0 rgb(74, 44, 44), 1px -1px 0 white, -1px 1px 0 blueviolet, 1px 1px 0 white;
+  background-color: rgba(224, 218, 208, 0.5);
+  border-color: rgb(247, 245, 240);
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: groove;
+  font-style: bold;
+  text-shadow: -1px -1px 0 rgb(74, 44, 44), 1px -1px 0 white, -1px 1px 0 blueviolet, 1px 1px 0 white;
+}
+
+.input {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  color: darkmagenta;
+  font-size: 40px;
+  font-style: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+}
+
+.body_container .Book1 {
+  color: red;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 30px;
+  width: 600px;
+  position: absolute;
+  height: 200px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(134, 174, 111, 0.5);
+  top: 45%;
+  cursor: pointer;
+}
+.body_container .Book1 img {
+  margin-left: -10%;
+  padding-right: 10%;
+}
+.body_container .Book2 {
+  color: red;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 30px;
+  width: 600px;
+  position: absolute;
+  height: 200px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(134, 174, 111, 0.5);
+  top: 90%;
+  cursor: pointer;
+}
+.body_container .Book2 img {
+  margin-left: -10%;
+  padding-right: 10%;
+}
+.body_container .Book3 {
+  color: red;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 30px;
+  width: 600px;
+  position: absolute;
+  height: 200px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(134, 174, 111, 0.5);
+  top: 135%;
+  cursor: pointer;
+}
+.body_container .Book3 img {
+  margin-left: -10%;
+  padding-right: 10%;
+}
+.body_container .Book4 {
+  color: red;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 30px;
+  width: 600px;
+  position: absolute;
+  height: 200px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(134, 174, 111, 0.5);
+  top: 180%;
+  cursor: pointer;
+}
+.body_container .Book4 img {
+  margin-left: -10%;
+  padding-right: 10%;
+}
+.body_container .Book5 {
+  color: red;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 30px;
+  width: 600px;
+  position: absolute;
+  height: 200px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(134, 174, 111, 0.5);
+  top: 225%;
+  cursor: pointer;
+}
+.body_container .Book5 img {
+  margin-left: -10%;
+  padding-right: 10%;
+}
+
+.Book1:hover {
+  color: greenyellow;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 50px;
+  width: 700px;
+  position: absolute;
+  height: 250px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(109, 74, 173, 0.5);
+}
+.Book1:hover img {
+  margin-left: 10%;
+  padding-right: 10%;
+}
+
+.Book2:hover {
+  color: greenyellow;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 50px;
+  width: 700px;
+  position: absolute;
+  height: 250px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(109, 74, 173, 0.5);
+}
+.Book2:hover img {
+  margin-left: 10%;
+  padding-right: 10%;
+}
+
+.Book3:hover {
+  color: greenyellow;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 50px;
+  width: 700px;
+  position: absolute;
+  height: 250px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(109, 74, 173, 0.5);
+}
+.Book3:hover img {
+  margin-left: 10%;
+  padding-right: 10%;
+}
+
+.Book4:hover {
+  color: greenyellow;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 50px;
+  width: 700px;
+  position: absolute;
+  height: 250px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(109, 74, 173, 0.5);
+}
+.Book4:hover img {
+  margin-left: 10%;
+  padding-right: 10%;
+}
+
+.Book5:hover {
+  color: greenyellow;
+  right: 25%;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 4%;
+  font-size: 50px;
+  width: 700px;
+  position: absolute;
+  height: 250px;
+  font-weight: bold;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(109, 74, 173, 0.5);
+}
+.Book5:hover img {
+  margin-left: 10%;
+  padding-right: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */

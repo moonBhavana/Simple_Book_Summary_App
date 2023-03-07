@@ -1,0 +1,28 @@
+@import 'style';
+background{
+    background-color: brown;
+}
+p
+{
+   font-size: 12px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: blueviolet;
+   margin-top: 2%;
+   margin-left: 32%;
+   margin-right: 32%;
+   text-align: center;
+   font-weight: 500;
+
+}
+h1{
+    color:$maroon_color;
+    text-align: center;
+    font-size: $size;
+    font-size: 30px; // Set font size
+    font-weight: bold; // Set font weight
+    padding: 5px; 
+    font-family: $font_family;
+    text-shadow: $text_border;
+    font-style: bold;
+    text-shadow: $text_border;
+}
